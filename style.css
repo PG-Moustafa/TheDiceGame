@@ -1,0 +1,105 @@
+
+body {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+#title {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#left-title {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+#left-img {
+    width: 200px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    color: white;
+}
+
+.score {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+#score-txt {
+    font-size: 40px;
+}
+#score-left {
+    font-size: 45px;
+}
+#score-right {
+    font-size: 45px;
+
+}
+
+#btn1 {
+    font-size: 15px;
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: green;
+}
+#btn2 {
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: green;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#right-title {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#right-img {
+    width: 200px;
+}
+
+
+
+
