@@ -32,7 +32,7 @@ body {
     font-weight: bold;
 }
 #left-img {
-    width: 200px;
+    width: 35%;
 }
 
 .middle {
@@ -97,7 +97,7 @@ button:hover {
 }
 
 #right-img {
-    width: 200px;
+    width: 35%;
 }
 
 
